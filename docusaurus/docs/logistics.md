@@ -46,11 +46,12 @@ We highly recommend the following e-book: **Sutton and Barto. _[Reinforcement Le
 
 ### Course Staff
 * Instructor: [Lerrel Pinto](https://www.lerrelpinto.com/)
-* Assistant: [Mahi Shafiullah](https://mahis.life)
+* Assistant: [Siddhant Haldar](https://siddhanthaldar.github.io/)
+* Graders: A, B, C
 
 ### Office Hours
 * Lerrel: TBD
-* Mahi: TBD
+* Siddhant: TBD
 
 ## Remarks
 * A student in this course is expected to act professionally. Please also follow the GSAS regulations on academic integrity found here: http://gsas.nyu.edu/page/academic.integrity

@@ -6,8 +6,8 @@
  */
 
 const siteConfig = {
-  title: 'Deep Reinforcement Learning',
-  tagline: 'CSCI-GA 3033-090, Fall 2021',
+  title: 'Machine Learning',
+  tagline: 'Course No., Fall 2021',
   url: 'https://NYU-robot-learning.github.io/',
   baseUrl: '/ml-class/',
   projectName: 'ml-class',
@@ -34,7 +34,7 @@ const siteConfig = {
   themeConfig: {
     image: 'img/logo-og.png',
     navbar: {
-      title: 'Deep Reinforcement Learning',
+      title: 'Machine Learning ',
       // logo: {
       //   alt: 'NYU Courant LOGO',
       //   src: 'img/logo.svg',
