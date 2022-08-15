@@ -44,22 +44,22 @@ function Home() {
           <video
             className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
             autostart autoPlay loop muted
-            alt="Car Racing Run OpenAI Gym"
-            src={useBaseUrl('img/racecar.mp4')}
+            alt="ML"
+            src={useBaseUrl('img/ML.mp4')}
             type="video/mp4" 
           />
           <video
             className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
             autostart autoPlay loop muted
-            alt="Humanoid v2 Run OpenAI Gym"
-            src={useBaseUrl('img/humanoid.mp4')}
+            alt="DL"
+            src={useBaseUrl('img/DL.mp4')}
             type="video/mp4" 
           />
           <video
             className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
             autostart autoPlay loop muted
-            alt="FetchReach OpenAI Gym"
-            src={useBaseUrl('img/fetch.mp4')}
+            alt="RL"
+            src={useBaseUrl('img/RL.mp4')}
             type="video/mp4" 
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -82,7 +82,7 @@ function Home() {
                 Overview
               </h2>
               <p>
-                Deep Reinforcement Learning (RL) has made massive strides in the last decade for sequential decision making problems such as playing Atari games, mastering GO, and continuous control of robots. This course serves as a graduate-level introduction to RL, with an emphasis on applications and recent research. Students will be introduced to a broad set of topics in RL: Basic formalisms; Exploration vs exploitation; Imitation learning; Model-free RL; Model-based control and planning; Unsupervised learning for RL; Applications to games, robotics, industry; Current frontiers. This course will involve several coding home-works where you will implement various algorithms, and a final project. Other alternative titles for this course are Adaptive control and learning, Dynamic optimization.
+              As data and computational resources become ever more abundant, the ability to leverage both to gain insights take on an increasingly important role in our civilization. “Machine Learning” is an umbrella term for the algorithms, tools and approaches that promise to harness data in such a way. This class is a survey course intended to give an overview of all major flavors of Machine Learning. Importantly, we will place a particular emphasis on understanding the key algorithms employed in different subfields of Machine Learning, instead of treating them as a black box. Overall, the goal of this course is to enable students to become comfortable with the material to a point where they can pursue the study of more advanced topics in Machine Learning as well as employing Machine Learning methods to solve scientific and applied problems. In other words, the purpose of this class is to find out if Machine Learning is for you or not - and if it is, to enable you to pursue it further with confidence and competence. 
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ function Home() {
             Staff
           </h2>
           <div className="row">
-            <div className="col col--3">
+            <div className="col col--2">
               <h3>
                 <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>
               </h3>
@@ -103,16 +103,62 @@ function Home() {
                 alt="Lerrel Pinto"
                 src={useBaseUrl('img/lerrel.jpeg')}
               />
+              <p>Instructor</p>
             </div>
-            <div className="col col--3 col--offset-3">
+            <div className="col col--2 col--offset-0.5">
             <h3>
-                <a href="http://mahis.life/">Mahi Shafiullah</a>
+                <a href="https://siddhanthaldar.github.io/">Siddhant Haldar</a>
               </h3>
               <img
                 className={styles.featureImage}
-                alt="Mahi Shafiullah"
+                alt="Siddhant Haldar"
+                src={useBaseUrl('img/siddhant.jpg')}
+              />
+              <p>Teaching Assistant</p>
+            </div>
+            <div className="col col--2 col--offset-0.5">
+            <h3>
+                <a href="something">Jeff Cui</a>
+              </h3>
+              <img
+                className={styles.featureImage}
+                alt="Jeff Cui"
+                src={useBaseUrl('img/jeff.jpg')}
+              />
+              <p>Grader</p>
+            </div>
+            <div className="col col--2 col--offset-0.5">
+            <h3>
+                <a href="something">Irmak Guzey</a>
+              </h3>
+              <img
+                className={styles.featureImage}
+                alt="Irmak Guzey"
+                src={useBaseUrl('img/irmak.jpeg')}
+              />
+              <p>Grader</p>
+            </div>
+            <div className="col col--2 col--offset-0.5">
+            <h3>
+                <a href="something">Anant Rai</a>
+              </h3>
+              <img
+                className={styles.featureImage}
+                alt="Anant Rai"
                 src={useBaseUrl('img/mahi.jpeg')}
               />
+              <p>Grader</p>
+            </div>
+            <div className="col col--2 col--offset-0.5">
+            <h3>
+                <a href="something">Aakanksha</a>
+              </h3>
+              <img
+                className={styles.featureImage}
+                alt="Aakanksha"
+                src={useBaseUrl('img/mahi.jpeg')}
+              />
+              <p>Grader</p>
             </div>
           </div>
         </div>

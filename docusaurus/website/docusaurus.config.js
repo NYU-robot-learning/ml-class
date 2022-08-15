@@ -6,8 +6,8 @@
  */
 
 const siteConfig = {
-  title: 'Machine Learning',
-  tagline: 'Course No., Fall 2021',
+  title: 'Introduction to Machine Learning',
+  tagline: 'CSCI-UA 473, Fall 2022',
   url: 'https://NYU-robot-learning.github.io/',
   baseUrl: '/ml-class/',
   projectName: 'ml-class',
