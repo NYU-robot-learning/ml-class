@@ -6,11 +6,10 @@ title: Class Logistics
 ## Course Overview
 As data and computational resources become ever more abundant, the ability to leverage both to gain insights take on an increasingly important role in our civilization. “Machine Learning” is an umbrella term for the algorithms, tools and approaches that promise to harness data in such a way. This class is a survey course intended to give an overview of all major flavors of Machine Learning. Importantly, we will place a particular emphasis on understanding the key algorithms employed in different subfields of Machine Learning, instead of treating them as a black box. Overall, the goal of this course is to enable students to become comfortable with the material to a point where they can pursue the study of more advanced topics in Machine Learning as well as employing Machine Learning methods to solve scientific and applied problems. In other words, the purpose of this class is to find out if Machine Learning is for you or not - and if it is, to enable you to pursue it further with confidence and competence.
 
-### Target Audience
-This course is aimed at 3rd or 4th year undergraduate students in computer science.
+This class is modeled on previous offerings from Spring 2022 and Fall 2021. Building on the tradition of these previous offerings, this version of the class will place a larger emphasis on practical, hands-on experience in building ML algorithms. To broaden the scope of this offering, we are also adding lectures on self-supervised learning and reinforcement learning.
 
 ## Prerequisites
-A strong foundation in **linear algebra, vector calculus, and introductory probability (standard probability distributions, continuous and discrete variables, expectations, and conditional expectation)**. Mathematical maturity and comfort with coding algorithms is required.
+A strong foundation in **linear algebra, vector calculus, and introductory probability (standard probability distributions, continuous and discrete variables, expectations, and conditional expectation)**. Comfort with coding in Python is required.
 
 Required
 * Data Structures (CSCI-UA.102) 
@@ -23,49 +22,28 @@ Recommended
     * Exercise materials are highly recommended.
 * DS-GA 1002 Statistical and Mathematical Methods
 
-<!-- ## Prerequisites
-### CS/Data Science students
-> This is NOT a basic course in reinforcement learning, deep learning or AI. If you are unsure about whether you are ready to take the class, go through [Assignment 0](assignments) to test yourself.
-
-* Graduate level knowledge of **machine learning, computer vision, and deep learning** is assumed. 
-* Proficiency in **Python and PyTorch** is assumed, and will be necessary to complete the [assignments](assignments).
-
-### For non-DS/CS Students
-Please contact Rosemary Amico <amico@cs.nyu.edu>. -->
-
 ## Logistical Overview
 
 ### Lecture
-* 2:00pm-3:15pm on Tuesdays and Thursdays ([Class calendar](https://calendar.google.com/calendar/u/0?cid=Y19hY3ZscGQ2ZWEzcXUxOGxvMDdvbDJjcGZuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)).
-* Lectures will be online.
+* 2:00pm-3:15pm on Tuesdays and Thursdays.
+* All lectures will be online.
 * The class will be recorded, we will post the link to the recorded lectures to the [class campuswire](https://campuswire.com/p/G6C251796/feed/).
+* Lectures are only accessible to enrolled students.
+* Please add the ([Class calendar](https://calendar.google.com/calendar/u/0?cid=Y19hY3ZscGQ2ZWEzcXUxOGxvMDdvbDJjcGZuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)) to your calendar to keep track of class events (lecture, office hours, recitation, etc.).
 
 ### Grading and Assignments
-1. Assignments (60%) + Capstone Project (30%) + Class Participating (10%)
-2. There will be six homework assignments through the semester.
-3. No late assignments will be accepted. This is a strict policy. 
-7. Capstone Project Due: 14 December, 2022
+* Assignments (60%) + Capstone Project (30%) + Class Participation (10%)
+* There will be six assignments through the semester.
+* Three late days are provided for late submission. No submissions will be accepted after the late days are used by the student. 
 
-<!-- ### Grading
-1. [Homeworks](assignments) (60%)
-2. Discussions, both in class and in [campuswire](https://campuswire.com/c/G7204E992/) (10%)
-3. Final Project (30%) -->
-
-<!-- ### Assignments
-* Assignments will use Python 3 and PyTorch; we will provide you a conda environment to install all dependencies.
-* To complete the assignemnt, you would need GPU access. Use [Greene](https://sites.google.com/a/nyu.edu/nyu-hpc/systems/greene-cluster) if you need access to one.
-* We strongly recommended using Python for the project as well. -->
-
-### Final Project (to be decided)
-* Project proposals (1 page) will be due on 10/9.
-* Maximum (and recommended) team size is 2.
-* Final presentations of all projects will take place on 12/10/2021.
-
-<!-- ### Course Textbook
-We highly recommend the following e-book: **Sutton and Barto. _[Reinforcement Learning.](http://incompleteideas.net/book/RLbook2020.pdf)_**. Reading materials for each class is posted in the [schedule](lectures). -->
+### Capstone Project
+* For the capstone project you will be asked to build a ML system for a pre-specified practical problem.
+* Project description will be released on 10/25/2022.
+* This is an individual project, and hence there will be no teams.
+* A final project report and a 1 minute video presentation of the projects is due on 12/14/2022.
 
 ### Books
-The following resources will be useful but do not need to be purchased
+The following resources will be useful but do not need to be purchased for following this class.
 * [The Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/): Trevor Hastie, Robert Tibshirani, and Jerome Friedman
 * [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf): Christopher Bishop
 * [Learning from Data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069/): Yaser S. Abu-Mostafa, Makil Magnon-Ismail, and Hsuan-Tien Lin
@@ -83,7 +61,7 @@ The following resources will be useful but do not need to be purchased
 * Graders: [Jeff Cui](https://www.lerrelpinto.com/), [Irmak Guzey](https://www.lerrelpinto.com/), [Anant Rai](https://www.lerrelpinto.com/), [Aakanksha](https://www.lerrelpinto.com/)
 
 ### Office Hours
-* Booked slot: Mondays 8am-9:15am in CIWW 109
+* Recitation slot: Mondays 8am-9:15am in CIWW 109
 * Lerrel: TBD
 * Siddhant: TBD
 
