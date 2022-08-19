@@ -31,3 +31,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
+.fit-width {
+  max-width: 100%;
+}

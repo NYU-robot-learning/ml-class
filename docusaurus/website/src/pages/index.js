@@ -42,21 +42,21 @@ function Home() {
       <div className={clsx('hero hero--dark', styles.heroBanner)}>
         <div className="container">
           <video
-            className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
+            className={clsx(styles.heroBannerLogo, 'margin-vert--md', 'fit-width')}
             autostart autoPlay loop muted
             alt="ML"
             src={useBaseUrl('img/ML.mp4')}
             type="video/mp4" 
           />
           <video
-            className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
+            className={clsx(styles.heroBannerLogo, 'margin-vert--md', 'fit-width')}
             autostart autoPlay loop muted
             alt="DL"
             src={useBaseUrl('img/DL.mp4')}
             type="video/mp4" 
           />
           <video
-            className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
+            className={clsx(styles.heroBannerLogo, 'margin-vert--md', 'fit-width')}
             autostart autoPlay loop muted
             alt="RL"
             src={useBaseUrl('img/RL.mp4')}
